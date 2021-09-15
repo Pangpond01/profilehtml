@@ -9,15 +9,34 @@
          font-family Ref:https://fonts.google.com/specimen/Hina+Mincho-->
     <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+
+    <!--External CSS=> 3rd Priority-->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!--Add Favicon Icon=> https://www.favicon.cc/-->
+    <link rel="Icon" href="images/favicon.ico">
+
+    <!--Internal CSS => 2nd Priority-->
+    <!--<style>
+        /* CSS Comments */
+        /* CSS Syntax => Selector { property: value; } */
+        /*(1) Tag Selecter */      
+    </style>-->
+
+
 </head>
 <body>
-    <h1 style="text-align: center; font-family: 'Hina Mincho', serif;"> PROFILE</h1>
-    <h2 style="text-align: center; font-family: 'Hina Mincho', serif;"> My name is Thidarat Khamkhen</h2>
-    <h3 style="text-align: center; font-family: 'Hina Mincho', serif;"><i>No Pian, No Gain </i></h3>
-    <h4 style="text-align: center; font-family: 'Sriracha', cursive; font-weight: normal;"><i>&quot;ถ้าหากคุณไม่แลกทุกสิ่งทุกอย่างที่คุณมี คุณจะไม่มีทางได้ในทุกสิ่งทุกอย่างที่คุณต้องการ&quot;</i></h4>
+    <!--Header-->
+    <!--Inline CSS => 1st Priority-->
+    <h1><span class="Profile"> PROFILE</h1>
+    <h2> My name is Thidarat Khamkhen</h2>
+    <div class="top-container">
+    <h3><i>No Pian, No Gain </i></h3>
+    <h4><i>&quot;ถ้าหากคุณไม่แลกทุกสิ่งทุกอย่างที่คุณมี คุณจะไม่มีทางได้ในทุกสิ่งทุกอย่างที่คุณต้องการ&quot;</i></h4></div>
     <hr>
     <!-- Menu -->
-    <table style="width:100%; text-align: center">
+    <div class="table-meun">
+    <table>
         <tr>
             <td>
                 <h3><a href="index.html" style="text-align: center; font-family: 'Hina Mincho', serif;">Profile</a></h3>
@@ -36,11 +55,14 @@
             </td>
         </tr>
     </table>
+    </div>
+
     <hr>
     <table>
         <tr>
-            <th style="width : 33.33%; vertical-align: top;"><h2>About me</h2>
-                <p style="text-align: center; font-family: 'Hina Mincho', serif; text-align: justify;">Let me introduce myself
+            <th><h2>About me</h2>
+                <p class="p-Aboutme">
+                   Let me introduce myself
                    My name is Thidarat Khamkhen,
                    My nickname is Pangpond, I am studying the second years in the Bangkok university,
                    I am a taekwondo athlete and representing Nakhon Nayok Province, Coach, Trainer in Airforce Academy Taekwondo Team
@@ -50,20 +72,17 @@
                 <p>Email: <a href="mailto: Tidaratkamken@gmail.com">Tidaratkamken@gmail.com</a></p>
                 </p>
             </th>
-            <th style="width : 33.33%; vertical-align: top;">
+            <th>
                 <!--crop circle image: https://crop-circle.imageonline.co/-->
                 <p><img src="images/new-modified.png" alt="Pangpond" style="width: 60%"></p>
             </th>
-            <th style="width : 33.33%; vertical-align: top;">
+            <th id="th-Detais">
                 <h2>Detais</h2>
-                <p style="text-align: center; font-family: 'Hina Mincho', serif; text-align: top;">
-               <br> Name :Thidarat Khamkhen
-               <br> Location :Pathum Thani, Thailind
-               <br> Study at :Bangkok university
-               <br> Subject :Multimedia Programming (MI213)
-                </p>
+                <p>Name :Thidarat Khamkhen</p>
+                <p>Location :Pathum Thani, Thailind</p>
+                <p>Study at :Bangkok university</p>
+                <p>Subject :Multimedia Programming (MI213)</p>
                 <p>Social Madia</p>
-                <!--Reference Social Madia icons-->
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
                 <p><a href="https://www.facebook.com/thidaratkhamkhen" class="fa fa-facebook-official" style="font-size: 40px; color: blue">
                    <a href="https://www.instagram.com/ppondtdh/" class="fa fa-instagram" style="font-size: 40px; color: rgb(160, 0, 160);">
@@ -72,10 +91,9 @@
                 </p>
             </th>
     </table>
+
     <hr>
-    <p style="text-align:center;">2021 Pangpond the series</p>
-
-
+    <p class="p-Footer">©2021 Pangpond the series</p>
 
 </body>
 </html>

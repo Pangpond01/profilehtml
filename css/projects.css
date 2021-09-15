@@ -1,0 +1,29 @@
+/*css file --> projects.html*/
+body{
+    background-color: rgb(224, 218, 255);
+}
+.table-menu{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(224, 255, 174);
+}
+h1{
+    text-align: center;
+    font-family: 'Hina Mincho', serif;
+    background-color: rgb(255, 209, 191);
+}
+h4{
+    text-align: center; 
+    font-family: 'Hina Mincho', serif; 
+}
+h5{
+    text-align: center; 
+    font-family: 'Sriracha', cursive; 
+    font-weight: normal;
+}
+p{
+    text-align: center;
+    text-align: center; 
+    font-family: 'Hina Mincho', serif; 
+    font-family: 'Sriracha', cursive;
+}
