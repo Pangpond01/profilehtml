@@ -1,0 +1,56 @@
+/*css file --> index.html
+/* (1)  Tag Selecter */
+body{
+    background-color: #fffeb6;
+}
+h1{
+    text-align: center;
+    font-family: 'Hina Mincho', serif;
+    background-color: #F0E5CF;
+}
+h2{
+    text-align: center;
+    font-family: 'Hina Mincho', serif;
+    color: snow;
+    background-color: #4B6587; 
+}
+h3{
+    text-align: center;
+    font-family: 'Hina Mincho', serif; 
+}
+h4{
+    text-align: center;
+    font-family: 'Sriracha', cursive; font-weight: normal;    
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+th{
+    width : 33.33%; 
+    vertical-align: top;
+}
+/*(2) Class Selerter */
+.p-Aboutme{
+    text-align: center;
+    font-family: 'Hina Mincho', serif; text-align: justify; 
+}
+.p-Footer{
+    text-align:center;
+}
+.Profile{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+/*(3) ID Selerter */
+#th-Detais{
+    text-align: left;
+    font-family: 'Hina Mincho', serif;
+}
+/* div */
+.top-container{
+    background-color: #C8C6C6;
+}
+.table-meun td:hover{
+    background-color: #F0E5CF;
+}
